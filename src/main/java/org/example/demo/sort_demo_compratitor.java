@@ -14,6 +14,12 @@ class Student {
         this.fname = fname;
         this.cgpa = cgpa;
     }
+    public Student( String fname,double cgpa,int id) {
+        super();
+        this.id = id;
+        this.fname = fname;
+        this.cgpa = cgpa;
+    }
 
     public int getId() {
         return id;
